@@ -1,0 +1,19 @@
+{
+  "name": "calculator-app-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "vitest --run --reporter verbose",
+    "test:watch": "vitest",
+    "start": "http-server -c-1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "install": "^0.13.0",
+    "vitest": "^1.0.4"
+  }
+}
